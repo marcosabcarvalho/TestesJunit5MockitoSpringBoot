@@ -11,7 +11,7 @@ import lombok.*;
 //@EqualsAndHashCode
 @AllArgsConstructor
 @NoArgsConstructor
-
+@Table(name = "_User") // se não colocar isso dá erro com H2
 @Entity
 public class User {
 
